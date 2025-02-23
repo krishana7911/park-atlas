@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        offWhite: 'var(--off-white)',
+        forestGreen: 'var(--forest-green)',
+        slateBlue: 'var(--slate-blue)',
+        softOlive: 'var(--soft-olive)',
+        dustyGray: 'var(--dusty-gray)',
+        warmSand: 'var(--warm-sand)',
+        mutedTeal: 'var(--muted-teal)',
       },
     },
   },
