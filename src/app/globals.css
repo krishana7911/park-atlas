@@ -5,6 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --off-white: #f4f4f4;
+  --forest-green: #2a4d2f;
+  --slate-blue: #5b6e7e;
+  --soft-olive: #8b9a6d;
+  --dusty-gray: #6e6e6e;
+  --warm-sand: #e3d1b5;
+  --muted-teal: #4a7c79;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +22,16 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-color: var(--off-white);
+  color: var(--dusty-gray);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: var(--forest-green);
+  color: white;
+}
+
+button:hover {
+  background-color: var(--muted-teal);
 }
