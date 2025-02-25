@@ -19,6 +19,9 @@ const Header = () => {
         <Link href="/map" className="text-lg hover:text-off-white">
           Map
         </Link>
+        <Link href="/countries" className="text-lg hover:text-off-white">
+          Countries
+        </Link>
       </nav>
     </header>
   );
